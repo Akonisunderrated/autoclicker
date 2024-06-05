@@ -1,6 +1,5 @@
-# -*- coding: utf-8 -*-
-# AutoClicker V1.1 
-# Updated: 05/June/2024
+# AutoClicker V1.2 
+# Last Updated: 05/June/2024
 # Jorgen Eilertsen
 # https://github.com/Akonisunderrated
 
@@ -38,9 +37,9 @@ def clicker(x):
         time.sleep(60)
     print('done at ', current_time)
 
-# simple run routine to allow for input to control hours runtime.
+# Simple run routine to allow for input to control hours runtime.
 def run_routine():
-    click_run_length_hours = int(input('Please input amount of hours to run : '))
+    click_run_length_hours = float(input('Please input amount of hours to run : '))
     clicker(click_run_length_hours)
     rerun = input('run again? (y/n)')
     if rerun.lower() == 'n':

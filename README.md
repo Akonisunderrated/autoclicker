@@ -10,23 +10,21 @@ This as-simple-as-possible python script simply makes the mouse click one time e
 
 ### Dependencies
 
-Just windows! You can run the executable on any windows computer.
-
-If you want to run in Python:
 * Python 
 * Python Libraries: pyautogui, time, datetime
 
 ### Installing
 
-* Download from browser or git clone
+* Make sure you have Python installed
+* Download this project from browser or git clone
+* Download dependencies via pip
+* Run the script "autoclicker.py"
 
 ### Executing program
 
-On windows you can run the provided executable
-
 To run the python project you can double press the autoclicker.py-script. 
 
-![program demo gif](https://github.com/Akonisunderrated/autoclicker/blob/main/README.mddemo/demo.gif)
+![program demo gif](https://raw.githubusercontent.com/Akonisunderrated/autoclicker/main/demo/demo.gif)
 
 You can also use the *clicker()* function independently. This function accepts any number of hours as input and runs for that amount of time.
 
@@ -43,6 +41,10 @@ Jørgen Eilertsen
 [@gmail](mailto:jorgen.th.eilertsen@gmail.com)
 
 ## Version History
+* 1.2
+    * Changed value on clicker time length to allow for float (this allows you to input half an hour as '0.5')
+    * removed executable due to file size
+    * Updated readme
 * 1.1
     * Added project documentation, demo gif and windows executeble. Repaired encoding errors in inital release
 * 1.0
